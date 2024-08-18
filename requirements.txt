@@ -2,4 +2,6 @@ windows-curses
 textwrap
 shutil
 sounddevice
+scipy
 vosk
+transformers[torch] #you can also select tensorflow2.0 ('transformers[tf-cpu]')
