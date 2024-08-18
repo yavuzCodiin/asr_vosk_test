@@ -73,7 +73,7 @@ Virtual environment is the safest and clearest one for different version librari
 * First of all check => `python --version` (The venv module is included with Python 3.3 and later)
     * If it is installed navigate to project directory => `mkdir my_project` & `cd my_project`
     <br>
-    * Create virtual environment => `python -m venv <virtual environment name>`
+    * Create virtual environment => python -m venv (virtual environment name)
 <br>
     
 
