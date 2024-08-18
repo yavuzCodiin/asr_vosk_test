@@ -33,6 +33,13 @@ This is my first time getting into application side of artificial intelligence, 
 
 After providing you some sources that I use/d and giving some comparison about Pytorch vs TensorFlow now let's do some local installation and some test, btw I used Jetson Orin NX 8 GB version for my tests. `Up to 70 TOPS, designed for AI and edge applications with a focus on efficiency and low power consumption.`
 
+# How to Use
+1. git clone https://github.com/yavuzCodiin/asr_vosk_test.git
+2. cd asr_vosk_test
+3. python -m venv virtual_env && virtual_env/Scripts/activate
+4. cd scripts
+5. python asr_vosk.py
+
 # Installation & Test
 
 I had some problems with tensorflow while installing I think version problems mostly and although I used venv I still get them so I decided to use Pytorch
