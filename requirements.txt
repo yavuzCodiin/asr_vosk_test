@@ -1,7 +1,14 @@
 windows-curses
-textwrap
-shutil
 sounddevice
 scipy
 vosk
-transformers[torch] #you can also select tensorflow2.0 ('transformers[tf-cpu]')
+transformers[torch]  # You can also use transformers[tf-cpu] for TensorFlow support
+
+# Specify a minimum Python version that includes standard library modules
+python_version >= '3.7'
+
+# The following modules are part of the Python standard library:
+# queue
+# threading
+# textwrap
+# shutil
